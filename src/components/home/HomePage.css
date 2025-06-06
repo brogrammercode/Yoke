@@ -1,0 +1,22 @@
+.main-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.video_hero {
+  width: 100%;
+  height: 100vh;
+  background-color: #313031;
+}
+
+.video_hero video {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.strip {
+  width: 100%;
+  height: 0.7vh;
+  background-color: #ff4654;
+}

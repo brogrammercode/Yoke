@@ -1,0 +1,69 @@
+.duo-main {
+  background-color: #ebebe6;
+  display: flex;
+}
+
+.duo-each {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.duo-typo {
+  margin-top: 80px;
+  margin-bottom: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.duo-typo h1 {
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 0.5em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.duo-typo p {
+  font-size: 14px;
+  max-width: 30em;
+  font-weight: 400;
+  opacity: 0.6;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.duo-typo div {
+  padding: 12px 20px;
+  border-radius: 2em;
+  background-color: white;
+  border: none;
+  font-size: 14px;
+  text-align: center;
+  display: inline-flex;
+  cursor: pointer;
+}
+
+.duo-image {
+  width: 100%;
+  max-width: 100em;
+  height: auto;
+  max-height: 36em;
+  object-fit: contain;
+  display: block;
+}
+
+.duo-divider {
+  background-color: grey;
+  opacity: 0.1;
+  width: 1px;
+  height: 50em;
+  align-self: center;
+}
