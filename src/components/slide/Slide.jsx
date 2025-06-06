@@ -1,4 +1,4 @@
-import "./slide.css";
+import "./Slide.css";
 
 const images = [
   "https://www.azuki.com/_next/image?url=%2Fhomepage%2FCarousel%2Ftcg-alpha-starter-deck.png&w=600&q=75",
