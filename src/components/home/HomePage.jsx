@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import NavBar from "../navbar/NavBar";
-import Slide from "../slide/slide";
+import Slide from "../slide/Slide";
 import "./HomePage.css";
 import About from "../about/About";
-import { Duo } from "../duo/duo";
+import { Duo } from "../duo/Duo";
 import Carousel from "../carousel/Carousel";
 
 const HomePage = () => {
