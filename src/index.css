@@ -1,5 +1,5 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap"); */
-@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@600;700&display=swap");
+@import url("https://fonts.cdnfonts.com/css/helvetica-neue-55"); */
 
 * {
   margin: 0;
@@ -20,4 +20,33 @@ body {
   margin: 0;
   padding: 0;
   font-family: "MyFont", sans-serif;
+  letter-spacing: 0.07em;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("/fonts/HelveticaNeueThin.otf") format("opentype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("/fonts/HelveticaNeueLight.otf") format("opentype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("/fonts/HelveticaNeueMedium.otf") format("opentype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "MyFont";
+  src: url("/fonts/HelveticaNeueBlack.otf") format("opentype");
+  font-weight: 700;
+  font-style: normal;
 }

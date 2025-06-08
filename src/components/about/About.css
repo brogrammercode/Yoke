@@ -30,15 +30,15 @@
 
 .abouttitle {
   font-size: 30px;
-  font-weight: bold;
+  font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 1em;
 }
 
 .aboutsubtitle {
-  font-weight: 100;
+  font-weight: 300;
   font-size: 14px;
   color: black;
-  opacity: 0.6;
   margin-bottom: 1.5em;
+  line-height: 1.3em;
 }
