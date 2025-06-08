@@ -1,4 +1,5 @@
 import "./NavBar.css";
+import { ArrowDown2 } from "iconsax-react";
 
 const NavBar = ({ navOnHero }) => {
   return (
@@ -10,7 +11,10 @@ const NavBar = ({ navOnHero }) => {
         <div className="navbuttons">
           <span>ACHIEVEMENTS</span>
         </div>
-        <div className="navbuttons">SOCIALS</div>
+        <div className="navbuttons">
+          <span>SOCIALS</span>
+          <ArrowDown2 size="14" color="grey" />
+        </div>
         <div className="navbuttons">MORE</div>
       </div>
       <div className="navbuttons">CONNECT</div>

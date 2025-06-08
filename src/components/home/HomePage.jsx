@@ -5,6 +5,7 @@ import "./HomePage.css";
 import About from "../about/About";
 import { Duo } from "../duo/Duo";
 import Carousel from "../carousel/Carousel";
+import Footer from "../footer/Footer";
 
 const HomePage = () => {
   const [navOnHero, setNavOnHero] = useState(true);
@@ -36,6 +37,8 @@ const HomePage = () => {
       <About />
       <Duo />
       <Carousel />
+      <Footer />
+      <div className="strip" />
     </>
   );
 };

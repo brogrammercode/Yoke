@@ -1,0 +1,32 @@
+.footer-main {
+  height: 22em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-left {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  margin: 1.5em;
+}
+
+.footer-logo {
+  color: #c03540;
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.footer-left p {
+  margin-top: 1em;
+}
+
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.footer-image {
+  height: 16em;
+}
