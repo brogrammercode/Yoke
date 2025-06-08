@@ -26,7 +26,8 @@ const HomePage = () => {
       <NavBar navOnHero={navOnHero} />
       <div className="video_hero">
         <video
-          src="https://generic-azuki-storage.b-cdn.net/Azuki%20AX%2025%20Campaign/AX%20Promo%20Video_GENERAL_16x9_Website.mp4"
+          src="https://ik.imagekit.io/disast3r/videoplayback%20(1).mp4?updatedAt=1749378623174"
+          // src="https://generic-azuki-storage.b-cdn.net/Azuki%20AX%2025%20Campaign/AX%20Promo%20Video_GENERAL_16x9_Website.mp4"
           autoPlay
           muted
           loop
